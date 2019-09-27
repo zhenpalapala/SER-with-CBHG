@@ -1,0 +1,119 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Batch_Normalization	model1.py	/^def Batch_Normalization(x, training, scope):$/;"	f	access:public
+CRNN	crnn.py	/^class CRNN(object):$/;"	c	inherits:object
+FLAGS	crnn.py	/^FLAGS = tf.app.flags.FLAGS$/;"	v
+FLAGS	model.py	/^FLAGS = tf.app.flags.FLAGS$/;"	v
+FLAGS	train.py	/^FLAGS = crnn.FLAGS$/;"	v
+FLAGS	utils.py	/^FLAGS = crnn.FLAGS$/;"	v
+__init__	crnn.py	/^    def __init__(self, mode):$/;"	m	class:CRNN	access:public
+_attention	crnn.py	/^    def _attention(self,inputs, attention_size, time_major=False, return_alphas=False):$/;"	m	class:CRNN	access:public
+_batch_norm	crnn.py	/^    def _batch_norm(self, name, x):$/;"	m	class:CRNN	access:public
+_batch_norm_wrapper	crnn.py	/^    def _batch_norm_wrapper(self, name, inputs, decay = 0.999):$/;"	m	class:CRNN	access:public
+_build_model	crnn.py	/^    def _build_model(self):$/;"	m	class:CRNN	access:public
+_conv2d	crnn.py	/^    def _conv2d(self, x, name, filter_size, in_channels, out_channels, strides):$/;"	m	class:CRNN	access:public
+_leaky_relu	crnn.py	/^    def _leaky_relu(self, x, leakiness=0.0):$/;"	m	class:CRNN	access:public
+_linear	crnn.py	/^    def _linear(self,x,names,shapes):$/;"	m	class:CRNN	access:public
+_max_pool	crnn.py	/^    def _max_pool(self, x, ksize, strides):$/;"	m	class:CRNN	access:public
+absolute_import	model.py	/^from __future__ import absolute_import$/;"	i
+acrnn	acrnn1.py	/^def acrnn(inputs, num_classes=4,$/;"	f	access:public
+acrnn	model.py	/^from acrnn1 import acrnn$/;"	i
+arg_scope	model1.py	/^from tensorflow.contrib.framework import arg_scope$/;"	i
+attention	acrnn1.py	/^from attention import attention$/;"	i
+attention	attention.py	/^def attention(inputs, attention_size, time_major=False, return_alphas=False):$/;"	f	access:public
+attention	model1.py	/^from attention import attention$/;"	i
+batch_norm	model1.py	/^from tensorflow.contrib.layers import batch_norm$/;"	i
+batch_norm_wrapper	acrnn1.py	/^def batch_norm_wrapper(inputs, is_training, decay = 0.999):$/;"	f	access:public
+batch_norm_wrapper	model1.py	/^def batch_norm_wrapper(inputs, is_training, decay = 0.999):$/;"	f	access:public
+batchnorm	model1.py	/^def batchnorm(Ylogits, is_test, iteration, offset, convolutional=False):$/;"	f	access:public
+build_model	model1.py	/^def build_model(inputX, is_training,keep_prob):$/;"	f	access:public
+cPickle	ExtractMel.py	/^import cPickle$/;"	i
+cPickle	decsion.py	/^import cPickle$/;"	i
+cPickle	model.py	/^import _pickle as cPickle$/;"	i
+cPickle	model1.py	/^import cPickle$/;"	i
+cPickle	train.py	/^import _pickle as cPickle$/;"	i
+cPickle	utils.py	/^import cPickle$/;"	i
+cPickle	zscore.py	/^import cPickle$/;"	i
+confusion	decsion.py	/^from sklearn.metrics import confusion_matrix as confusion$/;"	i
+confusion	model.py	/^from sklearn.metrics import confusion_matrix as confusion$/;"	i
+confusion	utils.py	/^from sklearn.metrics import confusion_matrix as confusion$/;"	i
+crnn	train.py	/^import crnn$/;"	i
+crnn	utils.py	/^import crnn$/;"	i
+decsion	decsion.py	/^def decsion():$/;"	f	access:public
+dense_to_one_hot	ExtractMel.py	/^def dense_to_one_hot(labels_dense, num_classes):$/;"	f	access:public
+dense_to_one_hot	model.py	/^def dense_to_one_hot(labels_dense, num_classes):$/;"	f	access:public
+dense_to_one_hot	model1.py	/^def dense_to_one_hot(labels_dense, num_classes):$/;"	f	access:public
+dense_to_one_hot	train.py	/^def dense_to_one_hot(labels_dense, num_classes):$/;"	f	access:public
+dense_to_one_hot	utils.py	/^def dense_to_one_hot(labels_dense, num_classes):$/;"	f	access:public
+dense_to_one_hot	zscore.py	/^def dense_to_one_hot(labels_dense, num_classes):$/;"	f	access:public
+division	model.py	/^from __future__ import division$/;"	i
+eps	ExtractMel.py	/^eps = 1e-5$/;"	v
+eps	zscore.py	/^eps = 1e-5$/;"	v
+epsilon	acrnn1.py	/^epsilon = 1e-3$/;"	v
+epsilon	model1.py	/^epsilon = 1e-3$/;"	v
+evaluate	utils.py	/^def evaluate():$/;"	f	access:public
+generate_label	ExtractMel.py	/^def generate_label(emotion,classnum):$/;"	f	access:public
+generate_label	zscore.py	/^def generate_label(emotion,classnum):$/;"	f	access:public
+getlogspec	ExtractMel.py	/^def getlogspec(signal,samplerate=16000,winlen=0.02,winstep=0.01,$/;"	f	access:public
+getlogspec	zscore.py	/^def getlogspec(signal,samplerate=16000,winlen=0.02,winstep=0.01,$/;"	f	access:public
+glob	ExtractMel.py	/^import glob$/;"	i
+glob	zscore.py	/^import glob$/;"	i
+leaky_relu	acrnn1.py	/^def leaky_relu(x, leakiness=0.0):$/;"	f	access:public
+leaky_relu	model1.py	/^def leaky_relu(x, leakiness=0.0):$/;"	f	access:public
+load_data	ExtractMel.py	/^def load_data():$/;"	f	access:public
+load_data	decsion.py	/^def load_data():$/;"	f	access:public
+load_data	model.py	/^def load_data(in_dir):$/;"	f	access:public
+load_data	model1.py	/^def load_data():$/;"	f	access:public
+load_data	train.py	/^def load_data():$/;"	f	access:public
+load_data	utils.py	/^def load_data():$/;"	f	access:public
+mapminmax	ExtractMel.py	/^def mapminmax(data):$/;"	f	access:public
+mapminmax	zscore.py	/^def mapminmax(data):$/;"	f	access:public
+math	decsion.py	/^import math$/;"	i
+math	model1.py	/^import math$/;"	i
+moving_averages	crnn.py	/^from tensorflow.python.training import moving_averages$/;"	i
+normalization	ExtractMel.py	/^def normalization(data):$/;"	f	access:public
+normalization	zscore.py	/^def normalization(data):$/;"	f	access:public
+np	ExtractMel.py	/^import numpy as np$/;"	i
+np	decsion.py	/^import numpy as np$/;"	i
+np	model.py	/^import numpy as np$/;"	i
+np	model1.py	/^import numpy as np$/;"	i
+np	train.py	/^import numpy as np$/;"	i
+np	utils.py	/^import numpy as np$/;"	i
+np	zscore.py	/^import numpy as np$/;"	i
+os	ExtractMel.py	/^import os$/;"	i
+os	decsion.py	/^import os$/;"	i
+os	model.py	/^import os$/;"	i
+os	model1.py	/^import os$/;"	i
+os	train.py	/^import os$/;"	i
+os	zscore.py	/^import os$/;"	i
+ps	ExtractMel.py	/^import python_speech_features as ps$/;"	i
+ps	zscore.py	/^import python_speech_features as ps$/;"	i
+read_CASIA	zscore.py	/^def read_CASIA():$/;"	f	access:public
+read_IEMOCAP	ExtractMel.py	/^def read_IEMOCAP():$/;"	f	access:public
+read_data	decsion.py	/^def read_data(dir):$/;"	f	access:public
+read_file	ExtractMel.py	/^def read_file(filename):$/;"	f	access:public
+read_file	zscore.py	/^def read_file(filename):$/;"	f	access:public
+recall	decsion.py	/^from sklearn.metrics import recall_score as recall$/;"	i
+recall	model.py	/^from sklearn.metrics import recall_score as recall$/;"	i
+recall	utils.py	/^from sklearn.metrics import recall_score as recall$/;"	i
+softmax	decsion.py	/^def softmax(x):$/;"	f	access:public
+tf	acrnn1.py	/^import tensorflow as tf$/;"	i
+tf	attention.py	/^import tensorflow as tf$/;"	i
+tf	crnn.py	/^import tensorflow as tf$/;"	i
+tf	model.py	/^import tensorflow as tf$/;"	i
+tf	model1.py	/^import tensorflow as tf$/;"	i
+tf	train.py	/^import tensorflow as tf$/;"	i
+tf	utils.py	/^import tensorflow as tf$/;"	i
+train	model.py	/^def train():$/;"	f	access:public
+train	train.py	/^def train(train_dir=None, model_dir=None, mode='train'):$/;"	f	access:public
+train_op	model1.py	/^def train_op(norm):$/;"	f	access:public
+wave	ExtractMel.py	/^import wave$/;"	i
+wave	zscore.py	/^import wave$/;"	i
+wgn	ExtractMel.py	/^def wgn(x, snr):$/;"	f	access:public
+wgn	zscore.py	/^def wgn(x, snr):$/;"	f	access:public
+zscore	ExtractMel.py	/^def zscore(data,mean,std):$/;"	f	access:public
+zscore	zscore.py	/^def zscore(data,mean,std):$/;"	f	access:public
