@@ -3,8 +3,9 @@
 """
 Created on Wed Jan 31 16:56:02 2018
 
-@author: hxj
+@author: zxx
 """
+woshiyigeceshiwendangquanshijiezhiyouyige
 
 import tensorflow as tf
 from tensorflow.python.training import moving_averages
